@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktirajte nas - Špediterska firma Požega</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Naslovna</a>
+            <a href="o-nama.html">O Nama</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Kontaktirajte nas</h1>
+
+        <!-- Kontakt forma -->
+        <form action="submit-form.php" method="post" class="contact-form">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Pošaljite</button>
+        </form>
+
+        <!-- Tabela informacija -->
+        <table class="contact-info-table">
+            <tr>
+                <th>Adresa:</th>
+                <td>123 Glavna ulica, Požega, Srbija</td>
+            </tr>
+            <tr>
+                <th>Telefon:</th>
+                <td>+381 123 456 789</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>vassasin.jezdovic@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Radno vreme:</th>
+                <td>Ponedeljak - Petak: 9:00 - 17:00</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Špediterska firma Požega</p>
+    </footer>
+</body>
+</html>
